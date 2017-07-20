@@ -1,4 +1,4 @@
-Here is the Euclidean method of determining the gcd of two numbers
+//Here is the Euclidean method of determining the gcd of two numbers
 
  
 #include <iostream>
@@ -31,6 +31,9 @@ int main() {
     int x = 36;,int y = 60;
     std::cout << gcd(x,y) << "\n"
     std::cout << gcd_while(x,y)
+}
+    
+    
     
     
     
