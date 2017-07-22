@@ -16,7 +16,7 @@ int gcd(int a,int b) {
 //using while loop, same method 
 
 int gcd_while(int a,int b) {
-    int temporary  // for swapping 
+    int temporary;  // for swapping 
     while(b>0) {
         t = b;
         b = a%b;
@@ -30,7 +30,7 @@ int gcd_while(int a,int b) {
 int main() {
     int x = 36;,int y = 60;
     std::cout << gcd(x,y) << "\n"
-    std::cout << gcd_while(x,y)
+    std::cout << gcd_while(x,y);
 }
     
     
